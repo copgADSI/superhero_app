@@ -19,7 +19,7 @@ function SingleSuperHero({ character }) {
         aria-labelledby="parent-modal-title"
         aria-describedby="parent-modal-description"
       >
-        <Box sx={{ ...MODAL_STYLES, maring: '0 auto' }}>
+        <Box sx={{ ...MODAL_STYLES,  }} className='box_data' >
           <h2 id="parent-modal-title"> {character.name} </h2>
           <img src={character.image.url} alt="" onClick={handleOpen} style={{ width: 200 }} />
           <TabsInfo powerstats={character.powerstats} apearance_data={character.appearance} />

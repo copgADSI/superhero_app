@@ -185,7 +185,10 @@ li {
 
 
 
-
+.box_data{
+    align-items: center;
+    justify-content: center;
+}
 
 /* .progress-line.Intelligence span::after{
     content: '50';
