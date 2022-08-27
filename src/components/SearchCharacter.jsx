@@ -1,5 +1,9 @@
 import useSearchCharacter from "../hooks/characters/useSearchCharacter";
 
+/**
+ * Componente usado para la búsqueca dinámica de 
+ * personajes
+ */
 const SearchCharacter = () => {
     const { setSearch } = useSearchCharacter();
     return (

@@ -7,6 +7,11 @@ import SinglePowerStats from "./SinglePowerStats";
 import Apearance from "./Apearance";
 
 
+/**
+ * Pestañas que contienen componentes hijos,
+ * que son: Estadísticas y Apariencia del personaje de forma 
+ * individual.
+ */
 const TabsInfo = ({ powerstats, apearance_data }) => {
     const { handleChange, currentTab } = useInitializeModal();
     return (
@@ -17,7 +22,7 @@ const TabsInfo = ({ powerstats, apearance_data }) => {
                 textColor="primary"
                 indicatorColor="primary"
             >
-                <Tab value="powerstats" label="POWERSTATS" />
+                <Tab value="powerstats" label="POWERSTATS" /> 
                 <Tab value="appearance" label="APEARANCES" />
 
             </Tabs>

@@ -3,6 +3,10 @@ import useSearchCharacter from '../hooks/characters/useSearchCharacter';
 import SingleSuperHero from './SingleSuperHero';
 import './Styles.css';
 
+/**
+ * Componente principal encargado  de 
+ * Cargar los personajes y mostrar una carta de datos o error
+ */
 const SuperHeros = () => {
     const { characters, isLoading } = useSearchCharacter();
     if (isLoading) {

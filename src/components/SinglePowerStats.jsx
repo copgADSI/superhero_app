@@ -1,5 +1,9 @@
 import './Styles.css';
 
+/**
+ * Componente que renderiza las estadísticas individualmente de cada
+ * personaje.
+ */
 const SinglePowerStats = ({ index_powerstat, powerstat_item }) => {
     return (
         <div className="bar">
